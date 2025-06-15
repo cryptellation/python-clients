@@ -17,7 +17,7 @@ package main
 import (
 	"context"
 
-	"github.com/cryptellation/go-client/dagger/internal/dagger"
+	"github.com/cryptellation/python-clients/dagger/internal/dagger"
 )
 
 type PythonClient struct{}

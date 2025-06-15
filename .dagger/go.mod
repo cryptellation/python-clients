@@ -1,4 +1,4 @@
-module github.com/cryptellation/go-client/dagger
+module github.com/cryptellation/python-clients/dagger
 
 go 1.23.8
 
