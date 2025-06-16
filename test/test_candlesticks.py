@@ -8,7 +8,7 @@ from cryptellation import client
 @pytest.mark.asyncio
 async def test_candlesticks():
     # Create a new client instance pointing to localhost
-    c = client.Client("localhost:7233")
+    c = client.Client(address="localhost:7233", user_agent="python-e2e")
     
     # Set up test parameters
     pair = "BTC-USDT"    # Trading pair to fetch candlesticks for
